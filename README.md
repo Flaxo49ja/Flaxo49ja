@@ -4,6 +4,8 @@
 
 I measure what is actually deployed in under-measured networks, then build the tooling to fix and monitor it. Most of my work starts with Mozambique and the wider SADC region, because the data usually does not exist yet.
 
+**[Portfolio](https://flaxo49ja.github.io/portfolio/)** · **[Email](mailto:chibuikeanyafulu@gmail.com)**
+
 ---
 
 ## 47 / 100
@@ -62,5 +64,8 @@ Full methodology, sample definition, per-site results, and four charts. Built fo
 
 ## Contact
 
+- Email: **chibuikeanyafulu@gmail.com**
+- Portfolio: [flaxo49ja.github.io/portfolio](https://flaxo49ja.github.io/portfolio/)
 - GitHub: [@Flaxo49ja](https://github.com/Flaxo49ja)
-- Open to security engineering, detection engineering and research collaboration, in Mozambique or remote.
+
+Open to security engineering, detection engineering and research collaboration, in Mozambique or remote.
