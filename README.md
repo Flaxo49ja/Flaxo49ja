@@ -1,4 +1,4 @@
-# Anayo Chibuike Anyafu
+# Anayo Chibuike Anyafulu
 
 Security research and detection engineering. Maputo, Mozambique.
 
