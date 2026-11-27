@@ -17,7 +17,7 @@ disagree with the number.
 
 | Repository | What it does | Result |
 | --- | --- | --- |
-| [nightshift](https://github.com/Flaxo49ja/nightshift) | A single-machine SOC range. Collects real journald and auditd telemetry, applies JSON rules, injects loopback-only techniques with the ground truth saved first, then scores precision and recall against it. | 100% recall on 1 scorable technique; precision 33% → 100% once scoring was scoped to the injection window, same events. 186 offline tests. |
+| [nightshift](https://github.com/Flaxo49ja/nightshift) | A single-machine SOC range. Collects real journald and auditd telemetry, applies JSON rules, injects loopback-only techniques with the ground truth saved first, then scores precision and recall against it. | 2 of 2 injection variants across 1 technique, MTTD 7.2 s (injection start to the scan that caught it, including collect and scan), precision 100%. |
 | [phishguard](https://github.com/Flaxo49ja/phishguard) | Phishing detection that runs in the browser. A logistic regression over 18 features of the URL string, trained on 107,355 URLs, with no network call at inference time. | ROC-AUC 0.954, 2 KB model, per-feature occlusion explanations, zero requests leaving the page. |
 | [mz-threat-feed](https://github.com/Flaxo49ja/mz-threat-feed) | Daily IOCs cross-referenced against ASN prefixes registered to Mozambique and SADC, published as a dashboard by GitHub Actions. | One run: 5,400 indicators checked, 4,055 prefixes watched, 103 indicators on SADC-registered address space. |
 | [ioc-triage](https://github.com/Flaxo49ja/ioc-triage) | One deterministic verdict for an IP, domain, URL or hash, built on five free intel sources. | 5 sources → 1 weighted verdict, 24-hour SQLite cache, exit codes you can script. |
